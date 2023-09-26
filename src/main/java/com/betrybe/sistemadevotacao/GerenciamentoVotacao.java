@@ -10,15 +10,16 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
   private ArrayList<PessoaCandidata> pessoasCandidatas;
   private ArrayList<PessoaEleitora> pessoasEleitoras;
   private ArrayList<String> cpfsComputados;
-
   /**
    *  Contructor.
    */
-public GerenciamentoVotacao() {
-  pessoasCandidatas = new ArrayList<>();
-  pessoasEleitoras = new ArrayList<>();
-  cpfsComputados = new ArrayList<>();
-}
+
+  public GerenciamentoVotacao() {
+    pessoasCandidatas = new ArrayList<>();
+    pessoasEleitoras = new ArrayList<>();
+    cpfsComputados = new ArrayList<>();
+  }
+
   @Override
   public void cadastrarPessoaCandidata(String nome, int numero) {
 
